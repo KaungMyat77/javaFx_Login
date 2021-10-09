@@ -1,0 +1,69 @@
+.main{
+    -fx-background-color: #fff;
+}
+.slide1{
+    -fx-background-color: #48cd48;
+}
+.slide2{
+    -fx-background-color: #ffeb75;
+}
+.tb{
+    -fx-text-fill: #48cd48;
+    -fx-background-radius: 10px;
+}
+.btn{
+    -fx-text-fill: #fff;
+    -fx-background-color: #48cd48,linear-gradient(#48cd48 50%, #c5ffc5 100%),
+    radial-gradient(center 50% -40%, radius 200%, #48cd48 45%, rgba(230,230,230,0) 50%);
+    -fx-background-insets: 0,1,1;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
+}
+.btn:hover{
+    -fx-text-fill: #48cd48;
+    -fx-border-color: #3c9f3c;
+    -fx-border-radius: 8px;
+    -fx-background-insets: 0,1,2;
+    -fx-background-color:
+            #48cd48,
+            linear-gradient(#e0e0e0 50%, white 100%),
+            radial-gradient(center 50% -40%, radius 200%, #f4f4f4 45%, rgba(230,230,230,0) 50%);
+}
+.btn:pressed{
+    -fx-text-fill: #fff;
+    -fx-background-color: #48cd48,linear-gradient(#48cd48 50%, #c5ffc5 100%),
+    radial-gradient(center 50% -40%, radius 200%, #48cd48 45%, rgba(230,230,230,0) 50%);
+    -fx-background-insets: 0,1,1;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
+}
+.iconbtn{
+    -fx-background-size: 40 40;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: none;
+}
+#fbbtn{
+    -fx-background-image: url("image/facebook.png");
+}
+#fbbtn:hover{
+    -fx-background-image: url("image/facebook.gif");
+}
+#gmbtn{
+   -fx-background-image: url("image/gmail.png");
+}
+#gmbtn:hover{
+    -fx-background-image: url("image/gmail.gif");
+}
+#twbtn{
+    -fx-background-image: url("image/twitter.png");
+}
+#twbtn:hover{
+    -fx-background-image: url("image/twitter.gif");
+}
+#tebtn{
+    -fx-background-image: url("image/telegram.png");
+}
+#tebtn:hover{
+    -fx-background-image: url("image/telegram.gif");
+}

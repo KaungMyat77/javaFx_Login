@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="main" stylesheets="@style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login_signup_fxui.controller">
+   <HBox fx:id="hb" prefHeight="500.0" prefWidth="800.0" styleClass="main">
+      <Pane prefHeight="500.0" prefWidth="400.0" styleClass="main">
+         <VBox layoutX="50.0" prefHeight="500.0" prefWidth="300.0" styleClass="main">
+            <Pane prefHeight="222.0" prefWidth="300.0">
+               <Label layoutX="30.0" layoutY="35.0" text="Sign In To GoGo.com" textAlignment="RIGHT" textFill="#6bc77f">
+                  <font>
+                     <Font name="Roboto Medium" size="25.0" />
+                  </font>
+               </Label>
+               <Label layoutX="33.0" layoutY="153.0" text="or use your email account:" textFill="#5e5d5d">
+                  <font>
+                     <Font name="UD Digi Kyokasho N-R" size="18.0" />
+                  </font>
+               </Label>
+               <HBox layoutX="30.0" layoutY="81.0" prefHeight="60.0" prefWidth="237.0">
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <Button id="fbbtn" alignment="CENTER" layoutY="11.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" styleClass="iconbtn" stylesheets="@style.css">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        
+                     </Button>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <Button id="gmbtn" layoutY="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" styleClass="iconbtn" />
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <Button id="twbtn" layoutY="11.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" styleClass="iconbtn" />
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Button id="tebtn" alignment="CENTER" layoutY="11.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" styleClass="iconbtn" stylesheets="@style.css">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </Pane>
+               </HBox>
+            </Pane>
+            <Pane prefHeight="193.0" prefWidth="300.0">
+               <TextField alignment="CENTER" cache="true" layoutX="25.0" layoutY="23.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="250.0" promptText="Enter Your Email" styleClass="tb">
+                  <font>
+                     <Font name="NeusaNextPro-Regular" size="16.0" />
+                  </font>
+                  <effect>
+                     <InnerShadow height="39.0" radius="19.0" width="39.0">
+                        <color>
+                           <Color red="0.5882353186607361" green="0.843137264251709" blue="0.572549045085907" />
+                        </color>
+                     </InnerShadow>
+                  </effect>
+                  <opaqueInsets>
+                     <Insets />
+                  </opaqueInsets>
+               </TextField>
+               <PasswordField alignment="CENTER" cache="true" layoutX="25.0" layoutY="99.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="250.0" promptText="Enter Your Passowrd" styleClass="tb">
+                  <font>
+                     <Font name="NeusaNextPro-Regular" size="16.0" />
+                  </font>
+                  <effect>
+                     <InnerShadow height="39.0" radius="19.0" width="39.0">
+                        <color>
+                           <Color red="0.5882353186607361" green="0.843137264251709" blue="0.572549045085907" />
+                        </color>
+                     </InnerShadow>
+                  </effect>
+               </PasswordField>
+            </Pane>
+            <Pane prefHeight="126.0" prefWidth="300.0">
+               <Button layoutX="98.0" layoutY="37.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="104.0" styleClass="btn" text="Log In" textAlignment="CENTER" textFill="WHITE">
+                  <font>
+                     <Font name="Roboto Bold" size="18.0" />
+                  </font>
+               </Button>
+            </Pane>
+         </VBox>
+      </Pane>
+      <Pane prefHeight="500.0" prefWidth="400.0">
+         <VBox layoutX="50.0" prefHeight="500.0" prefWidth="300.0" />
+      </Pane>
+   </HBox>
+</AnchorPane>
