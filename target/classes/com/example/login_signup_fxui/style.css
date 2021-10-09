@@ -11,6 +11,9 @@
     -fx-text-fill: #48cd48;
     -fx-background-radius: 10px;
 }
+.tb:hover{
+    -fx-translate-y:-5px ;
+}
 .btn{
     -fx-text-fill: #fff;
     -fx-background-color: #48cd48,linear-gradient(#48cd48 50%, #c5ffc5 100%),
@@ -66,4 +69,18 @@
 }
 #tebtn:hover{
     -fx-background-image: url("image/telegram.gif");
+}
+.term{
+    -fx-text-fill: #58dcc6;
+}
+.term:hover{
+    -fx-text-fill: #7ddc58;
+    -fx-background-color: rgba(154, 255, 250, 0.83);
+    -fx-background-radius: 10px;
+}
+.term:pressed{
+-fx-text-fill: #58dcc6;
+}
+.term:selected{
+    -fx-text-fill: #7ddc58;
 }
