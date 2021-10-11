@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="57.0" prefHeight="500.0" prefWidth="334.0" styleClass="main" stylesheets="@style.css">
+         <children>
+            <Pane prefHeight="184.0" prefWidth="334.0">
+               <children>
+                  <Label layoutX="30.0" layoutY="35.0" text="Sign Up To GoGo.com" textAlignment="RIGHT" textFill="#3ab790">
+                     <font>
+                        <Font name="Roboto Medium" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="141.0" prefHeight="23.0" prefWidth="265.0" text="or use your email for registration:" textFill="#5e5d5d">
+                     <font>
+                        <Font name="NeusaNextPro-WideLight" size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="30.0" layoutY="81.0" prefHeight="60.0" prefWidth="237.0">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Button id="fbbtn" alignment="CENTER" layoutY="11.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" styleClass="iconbtn" stylesheets="@style.css">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Button id="gmbtn" layoutY="10.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" styleClass="iconbtn" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Button id="twbtn" layoutY="11.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" styleClass="iconbtn" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Button id="tebtn" alignment="CENTER" layoutY="11.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" styleClass="iconbtn" stylesheets="@style.css">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </children>
+            </Pane>
+            <Pane prefHeight="226.0" prefWidth="334.0">
+               <children>
+                  <TextField alignment="CENTER" cache="true" layoutX="33.0" layoutY="14.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="250.0" promptText="Enter Your Name" styleClass="tb">
+                     <font>
+                        <Font name="NeusaNextPro-WideRegular" size="16.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow height="39.0" radius="19.0" width="39.0">
+                           <color>
+                              <Color red="0.5882353186607361" green="0.843137264251709" blue="0.572549045085907" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <PasswordField alignment="CENTER" cache="true" layoutX="33.0" layoutY="129.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="250.0" promptText="Enter Your Passowrd" styleClass="tb">
+                     <font>
+                        <Font name="NeusaNextPro-WideRegular" size="16.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow height="39.0" radius="19.0" width="39.0">
+                           <color>
+                              <Color red="0.5882353186607361" green="0.843137264251709" blue="0.572549045085907" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                  </PasswordField>
+                  <TextField alignment="CENTER" cache="true" layoutX="33.0" layoutY="72.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="45.0" prefWidth="250.0" promptText="Enter Your Email" styleClass="tb">
+                     <font>
+                        <Font name="NeusaNextPro-WideRegular" size="16.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow height="39.0" radius="19.0" width="39.0">
+                           <color>
+                              <Color red="0.5882353186607361" green="0.843137264251709" blue="0.572549045085907" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </TextField>
+                  <CheckBox alignment="CENTER" contentDisplay="CENTER" layoutX="33.0" layoutY="184.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="291.0" styleClass="term" text="Agree to our Terms and Conditions" textFill="#ff5c58">
+                     <font>
+                        <Font name="NeusaNextPro-WideMedium" size="15.0" />
+                     </font>
+                  </CheckBox>
+               </children>
+            </Pane>
+            <Pane prefHeight="105.0" prefWidth="334.0">
+               <children>
+                  <Button layoutX="115.0" layoutY="31.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="104.0" styleClass="btn" text="Sign Up" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

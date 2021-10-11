@@ -2,40 +2,44 @@
     -fx-background-color: #fff;
 }
 .slide1{
-    -fx-background-color: #48cd48;
+    -fx-background-color: rgba(58, 183, 144, 0.84);
+    -fx-background-radius: 17px;
+    -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,0);
+
 }
 .slide2{
-    -fx-background-color: #ffeb75;
+    -fx-background-color: #fb1818;
+
 }
 .tb{
-    -fx-text-fill: #48cd48;
+    -fx-text-fill: #3AB790;
     -fx-background-radius: 10px;
 }
 .tb:hover{
     -fx-translate-y:-5px ;
 }
 .btn{
-    -fx-text-fill: #fff;
-    -fx-background-color: #48cd48,linear-gradient(#48cd48 50%, #c5ffc5 100%),
-    radial-gradient(center 50% -40%, radius 200%, #48cd48 45%, rgba(230,230,230,0) 50%);
+    -fx-text-fill: #f9f9f9;
+    -fx-background-color: #3AB790,linear-gradient(#3ebb93 50%, #cdffe7 100%),
+    radial-gradient(center 50% -40%, radius 200%, #4dc3a0 45%, rgba(230,230,230,0) 50%);
     -fx-background-insets: 0,1,1;
     -fx-background-radius: 10px;
     -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
 }
 .btn:hover{
-    -fx-text-fill: #48cd48;
-    -fx-border-color: #3c9f3c;
+    -fx-text-fill: #3AB790;
+    -fx-border-color: #339f7f;
     -fx-border-radius: 8px;
     -fx-background-insets: 0,1,2;
     -fx-background-color:
-            #48cd48,
+            #3AB790,
             linear-gradient(#e0e0e0 50%, white 100%),
             radial-gradient(center 50% -40%, radius 200%, #f4f4f4 45%, rgba(230,230,230,0) 50%);
 }
 .btn:pressed{
     -fx-text-fill: #fff;
-    -fx-background-color: #48cd48,linear-gradient(#48cd48 50%, #c5ffc5 100%),
-    radial-gradient(center 50% -40%, radius 200%, #48cd48 45%, rgba(230,230,230,0) 50%);
+    -fx-background-color: #3AB790,linear-gradient(#3AB790 50%, #3AB790 100%),
+    radial-gradient(center 50% -40%, radius 200%, #36ab87 45%, rgba(230,230,230,0) 50%);
     -fx-background-insets: 0,1,1;
     -fx-background-radius: 10px;
     -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
@@ -71,16 +75,48 @@
     -fx-background-image: url("image/telegram.gif");
 }
 .term{
-    -fx-text-fill: #58dcc6;
+    -fx-text-fill: #ffd858;
 }
 .term:hover{
-    -fx-text-fill: #7ddc58;
-    -fx-background-color: rgba(154, 255, 250, 0.83);
+    -fx-text-fill: #3AB790;
+    -fx-background-color: rgba(255, 216, 88, 0.93);
     -fx-background-radius: 10px;
 }
 .term:pressed{
--fx-text-fill: #58dcc6;
+-fx-text-fill: #3AB790;
 }
 .term:selected{
-    -fx-text-fill: #7ddc58;
+    -fx-text-fill: #3AB790;
+}
+.wac1{
+    -fx-background-color: transparent;
+}
+.btn1{
+    -fx-text-fill: #3AB790;
+    -fx-background-color:
+            #3AB790,
+            linear-gradient(#e0e0e0 50%, white 100%),
+            radial-gradient(center 50% -40%, radius 200%, #f4f4f4 45%, rgba(230,230,230,0) 50%);
+    -fx-background-insets: 0,1,1;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
+}
+.btn1:hover{
+    -fx-text-fill: #f9f9f9;
+    -fx-border-color: #339f7f;
+    -fx-border-radius: 8px;
+    -fx-background-insets: 0,1,2;
+    -fx-background-color: #3AB790,linear-gradient(#3ebb93 50%, #cdffe7 100%),
+    radial-gradient(center 50% -40%, radius 200%, #4dc3a0 45%, rgba(230,230,230,0) 50%);
+}
+
+.btn1:pressed{
+    -fx-text-fill: #3AB790;
+    -fx-background-color:
+            #3AB790,
+            linear-gradient(#e0e0e0 50%, white 100%),
+            radial-gradient(center 50% -40%, radius 200%, #f4f4f4 45%, rgba(230,230,230,0) 50%);
+    -fx-background-insets: 0,1,1;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
 }
