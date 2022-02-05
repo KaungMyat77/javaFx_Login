@@ -27,8 +27,8 @@ public class controller{
     @FXML
     void left(ActionEvent e1) {
         if (sw == false) {
-            TranslateTransition t1 = new TranslateTransition(Duration.seconds(1.5), vb);
-            TranslateTransition t2 = new TranslateTransition(Duration.seconds(1.5), p1);
+            TranslateTransition t1 = new TranslateTransition(Duration.seconds(1.2), vb);
+            TranslateTransition t2 = new TranslateTransition(Duration.seconds(1.2), p1);
             t1.setToX(vb.getLayoutX() + (root.getPrefWidth() - vb.getPrefWidth()) + 30);
             t2.setToX(-p1.getPrefWidth() + 100);
             t1.play();
@@ -50,8 +50,8 @@ public class controller{
                 }
             });
         }else{
-            TranslateTransition t1 = new TranslateTransition(Duration.seconds(1.5), vb);
-            TranslateTransition t2 = new TranslateTransition(Duration.seconds(1.5), p1);
+            TranslateTransition t1 = new TranslateTransition(Duration.seconds(1.2), vb);
+            TranslateTransition t2 = new TranslateTransition(Duration.seconds(1.2), p1);
             t1.setToX(0);
             t2.setToX(0);
             t1.play();

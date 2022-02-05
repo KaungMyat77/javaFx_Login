@@ -5,7 +5,6 @@
     -fx-background-color: rgba(58, 183, 144, 0.84);
     -fx-background-radius: 17px;
     -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,0);
-
 }
 .slide2{
     -fx-background-color: #fb1818;

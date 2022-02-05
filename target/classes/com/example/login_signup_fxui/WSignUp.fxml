@@ -15,7 +15,7 @@
                <children>
                   <Label alignment="CENTER" contentDisplay="CENTER" layoutY="122.0" prefHeight="30.0" prefWidth="260.0" text="Hello, Friend!" textAlignment="RIGHT" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
                      <font>
-                        <Font name="Roboto Medium" size="27.0" />
+                        <Font name="Roboto Medium" size="30.0" />
                      </font>
                      <effect>
                         <Glow level="1.0" />
@@ -27,7 +27,7 @@
                <children>
                   <Label alignment="CENTER" layoutX="-3.0" layoutY="37.0" prefHeight="30.0" prefWidth="266.0" text="Enter your personal details" textFill="WHITE">
                      <font>
-                        <Font name="NeusaNextPro-WideLight" size="17.0" />
+                        <Font name="NeusaNextPro-WideLight" size="15.0" />
                      </font>
                      <effect>
                         <Glow level="1.0" />
@@ -35,7 +35,7 @@
                   </Label>
                   <Label alignment="CENTER" layoutX="-3.0" layoutY="69.0" prefHeight="30.0" prefWidth="266.0" text="and start journery with us" textFill="WHITE">
                      <font>
-                        <Font name="NeusaNextPro-WideLight" size="17.0" />
+                        <Font name="NeusaNextPro-WideLight" size="15.0" />
                      </font>
                      <effect>
                         <Glow level="1.0" />
